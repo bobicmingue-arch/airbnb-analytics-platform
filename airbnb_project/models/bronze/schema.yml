@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: bronze_hosts
+    description: "Données brutes des hôtes Airbnb"
+
+  - name: bronze_listings
+    description: "Données brutes des logements Airbnb"
+
+  - name: bronze_reviews
+    description: "Données brutes des avis clients Airbnb"
+
+  - name: bronze_full_moon_dates
+    description: "Dates des nuits de pleine lune"

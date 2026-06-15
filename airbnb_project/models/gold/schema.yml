@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: gold_listings_analysis
+    description: "Analyse des logements par type de chambre"
+    columns:
+      - name: room_type
+        tests:
+          - not_null
+          - unique
+
+  - name: gold_hosts_analysis
+    description: "Analyse des hôtes Airbnb"
+    columns:
+      - name: host_id
+        tests:
+          - not_null
+          - unique
+
+  - name: gold_reviews_analysis
+    description: "Analyse des avis clients"
+    columns:
+      - name: sentiment
+        tests:
+          - not_null
+
+  - name: gold_full_moon_impact
+    description: "Impact des nuits de pleine lune sur les avis"
+    columns:
+      - name: night_type
+        tests:
+          - not_null
