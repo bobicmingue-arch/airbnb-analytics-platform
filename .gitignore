@@ -1,0 +1,5 @@
+data/
+airbnb_project/target/
+airbnb_project/logs/
+__pycache__/
+*.pyc
